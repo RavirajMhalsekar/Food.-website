@@ -10,13 +10,14 @@
 <body>
     <header>
         <a href="#" class="logo">Food<span>.</span></a>
+        <div class="menutoggle" onclick="togglemenu();"></div>
         <ul class="navigation">
-            <li><a href="#banner">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#expert">Expert</a></li>
-            <li><a href="#testimoials">Testimoials</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#banner" onclick="togglemenu();">Home</a></li>
+            <li><a href="#about" onclick="togglemenu();">About</a></li>
+            <li><a href="#menu" onclick="togglemenu();">Menu</a></li>
+            <li><a href="#expert" onclick="togglemenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="togglemenu();">testimonials</a></li>
+            <li><a href="#contact" onclick="togglemenu();">Contact</a></li>
         </ul>
     </header>
     <section class="banner" id="banner">
@@ -231,6 +232,10 @@
             </div>
         </div>
     </section>
+
+    <div class="copyright-text">
+        <p>copyright 2021 <a href="#">Raviraj Mhalsekar</a>. All right Reserved</p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
